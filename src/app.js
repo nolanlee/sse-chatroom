@@ -52,7 +52,7 @@ app.post('/:username/sendMsg', (req, res, next) => {
   let msg = req.body.msg;
   let username = req.params.username;
   if (!msg || !username) throw Error('msg or username is empty')
-  msgArr.push({
+  MSG_ARR.push({
     time: moment().format('YYYY-MM-DD HH:mm:ss'),
     username,
     msg

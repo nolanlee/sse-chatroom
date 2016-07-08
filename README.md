@@ -1,5 +1,5 @@
 # Chatroom Using EventSource
 
-## Star Up
+## Set Up
 
 `npm install && npm start`
