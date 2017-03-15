@@ -5,6 +5,7 @@ const dirs = {src: 'src', dist: 'dist'}
 
 gulp.task('vendor:js', () => {
   return gulp.src([
+      'node_modules/whatwg-fetch/fetch.js',
       'node_modules/jquery/dist/jquery.js',
       'node_modules/materialize-css/dist/js/materialize.js'
     ])
